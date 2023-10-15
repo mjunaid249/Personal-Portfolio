@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://www.svgrepo.com/show/474372/code.svg"
+      type="image/x-icon"
+    />
+    <title>Junaid's Portfolio</title>
+  </head>
+  <body>
+    <!-- Header Starts  -->
+    <header class="header">
+      <div class="logo">
+        <ion-icon name="logo-nodejs" class="logo-icon"></ion-icon>
+        <label for="" class="logo-text">Junaid</label>
+      </div>
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li><a href="#home" class="navbar-link">Home</a></li>
+          <li><a href="#about" class="navbar-link">About</a></li>
+          <li><a href="#skills" class="navbar-link">Skills</a></li>
+          <li>
+            <a
+              href="https://github.com/mjunaid249"
+              target="_blank"
+              class="navbar-btn"
+              ><ion-icon name="logo-github"></ion-icon> GitHub</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="mobile-navbar-btn">
+        <ion-icon name="menu" class="mobile-navbar-icon"></ion-icon>
+        <ion-icon name="close" class="mobile-navbar-icon"></ion-icon>
+      </div>
+    </header>
+
+    <main>
+      <!-- Home Starts -->
+      <section class="home" id="home">
+        <div class="my-info">
+          <h1 class="primary-heading">
+            Welcome <br />
+            I'm <span class="my-name">Muhammad Junaid</span>
+          </h1>
+          <p class="type-writter">I am a <span id="element"></span></p>
+          <a href="#about" class="home-btn">About me </a>
+        </div>
+        <div class="my-image">
+          <img src="/home.jpg" alt="" />
+        </div>
+      </section>
+      <!-- About Starts  -->
+      <section class="about" id="about">
+        <h1 class="primary-heading">About Me</h1>
+        <div class="about-data">
+          <div class="about-image">
+            <img src="/about.jpg" alt="" />
+          </div>
+          <div class="about-info" data-aos="fade-in">
+            <h2 class="sec-heading">I'm Muhammad Junaid</h2>
+            <p class="sec-para"><span id="e-2"></span></p>
+            <p class="email">
+              <i class="fa-solid fa-envelope"></i> junaidch249249@gmail.com
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Start  -->
+
+      <section class="skills" id="skills">
+        <h1 class="primary-heading">Skills & Experties</h1>
+        <div class="skills-container">
+          <div class="skill-card">
+            <div class="skill-logo">
+              <img
+                src="https://www.svgrepo.com/show/303157/react-logo.svg"
+                alt=""
+              />
+            </div>
+            <div class="skill-des">React JS</div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-logo">
+              <img
+                src="https://www.svgrepo.com/show/376337/node-js.svg"
+                alt=""
+              />
+            </div>
+            <div class="skill-des">Node JS</div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-logo">
+              <img
+                src="https://www.svgrepo.com/show/452228/html-5.svg"
+                alt=""
+              />
+            </div>
+            <div class="skill-des">HTML 5</div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-logo">
+              <img
+                src="https://www.svgrepo.com/show/374118/tailwind.svg"
+                alt=""
+              />
+            </div>
+            <div class="skill-des">Tailwind CSS</div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-logo">
+              <img
+                src="https://www.svgrepo.com/show/373705/js-official.svg"
+                alt=""
+              />
+            </div>
+            <div class="skill-des">JavaScript</div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-logo">
+              <img src="https://www.svgrepo.com/show/452185/css-3.svg" alt="" />
+            </div>
+            <div class="skill-des">CSS</div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-logo">
+              <img
+                src="https://www.svgrepo.com/show/331488/mongodb.svg"
+                alt=""
+              />
+            </div>
+            <div class="skill-des">MongoDb</div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-logo">
+              <img
+                src="https://www.svgrepo.com/show/512317/github-142.svg"
+                alt=""
+              />
+            </div>
+            <div class="skill-des">GitHub</div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-logo">
+              <img
+                src="https://www.svgrepo.com/show/353498/bootstrap.svg"
+                alt=""
+              />
+            </div>
+            <div class="skill-des">Bootstrap</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- script tags  -->
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/d883733ccd.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
