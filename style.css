@@ -211,6 +211,10 @@ html {
     width: 20rem;
     border-radius: 1rem;
   }
+  .my-info .type-writter {
+    color: var(--text-color);
+    font-size: 1.1rem;
+  }
 }
 @media (max-width: 290px) {
   html {
@@ -219,7 +223,7 @@ html {
 }
 @media (max-width: 230px) {
   html {
-    font-size: 40%;
+    font-size: 30%;
   }
 }
 /* About Style  */
