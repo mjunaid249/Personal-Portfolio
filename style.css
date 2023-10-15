@@ -203,7 +203,7 @@ html {
     justify-content: center;
   }
 }
-@media (max-width: 350px) {
+@media (max-width: 370px) {
   html {
     font-size: 60%;
   }
